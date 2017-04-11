@@ -10,5 +10,6 @@ public class test {
             System.out.println("i : " + i);
         }
         System.out.println("add branch sy ! ");
+        System.out.println("add remote dayvillage !");
     }
 }
