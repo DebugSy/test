@@ -47,26 +47,9 @@
 ```json
 [
   {
-    "configuration": {
-      "agentId": "string",
-      "strategies": [
-        {
-          "rules": [
-            {
-              "expression": "string",
-              "id": "string",
-              "priority": 0
-            }
-          ]
-        }
-      ]
-    },
     "host": "string",
-    "id": "string",
     "name": "string",
-    "port": 0,
-    "status": "Offline",
-    "version": "string"
+    "port": 0
   }
 ]
 ```
@@ -191,7 +174,7 @@
    http status : `200`
 
 ## 删除前置采集节点
-1.requst `DELETE /api/{id}`  根据根据url的id启动前置采集节点
+1.requst `DELETE /api/agents/{id}`  根据根据url的id启动前置采集节点
 
 2.response   
 
